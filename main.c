@@ -76,7 +76,7 @@ void print(listItem* head)
 
 
 
-listItem* add_Value(listItem* head, int value)		//добавление по возрастанию
+listItem* add_Value(listItem* head, int value)		//добавление по убыванию
 {
 	listItem* newItem = (listItem*)malloc(sizeof(listItem));
 	newItem->data = value;
